@@ -16,6 +16,9 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
+      {% if post.date %}
+        <h3>{{ post.date | date: "%Y年%m月%d日" }}</h3>
+      {% endif %}
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
     </header>
