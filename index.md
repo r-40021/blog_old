@@ -7,7 +7,7 @@ title: ようこそ！
 <ul>
   {% for post in site.posts %}
     <p>
-      <a href="{{ post.url }}">{{post.date.strftime("%y/%m月/%d日")}} {{ post.title }}</a>
+      <a href="{{ post.url }}">{{ page.date | date: }} {{ post.title }}</a>
     </p>
   {% endfor %}
 </ul>
