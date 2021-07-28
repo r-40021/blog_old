@@ -1,0 +1,12 @@
+.btn.dark{
+  margin-bottom: 0;
+  color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.02);
+}
+.btn.dark:hover {
+    color: rgba(253,253,253,0.9);
+    text-decoration: none;
+    background-color: rgba(0,0,0,0.2);
+    border-color: rgba(0,0,0,0.3);
+}
+@import "{{ site.theme }}";
