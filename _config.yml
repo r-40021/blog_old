@@ -1,4 +1,5 @@
 title: やまだ Blog
 description: やまだのブログ。ぼちぼち投稿していきます。
 show_downloads: false
+source: /blog
 theme: jekyll-theme-cayman
