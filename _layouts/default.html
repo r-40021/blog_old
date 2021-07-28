@@ -16,7 +16,7 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-      {% if post.date %}
+      {% if page.backBtn %}
         <h3>{{ post.date | date: "%Y年%m月%d日" }}</h3>
       {% endif %}
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
@@ -25,11 +25,13 @@
 
     <main id="content" class="main-content" role="main">
       {{ content }}
-
-      <footer class="site-footer">
-        {% if page.backBtn %}
+      
+      <div class="backToHome" style="text-align: center;">
+         {% if page.backBtn %}
           <p><a href="{{ site.baseurl }}" class="btn dark">TOPに戻る</a></p>
         {% endif %}
+      </div>
+      <footer class="site-footer">
         <p>&copy;2021 Kenichi Yamada</p>
       </footer>
     </main>
