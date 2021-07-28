@@ -32,6 +32,6 @@ header.page-header:before, header.page-header:after {
 header.page-header:before {
     bottom: 1.5em;
 }
-header.page-header:before {
-    bottom: 1em;
+header.page-header:after {
+    top: 1em;
 }
