@@ -40,7 +40,8 @@ h1.project-name{
   background: none;
 }
 
-@media screen and (max-width: 42em)
-.project-name {
-    font-size: 2.5rem;
+@media screen and (max-width: 42em){
+  .project-name {
+      font-size: 2.5rem;
+  }
 }
