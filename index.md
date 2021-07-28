@@ -11,7 +11,7 @@ title: やまだ Blog
 # 投稿一覧
 
 <ul>
-  {%　newposts = site.posts.reverse %}
+  {{　newposts = site.posts.reverse }}
   {% for post in newposts %}
     <p>
       <a href="{{ site.baseurl }}/{{ post.url }}">{{ post.date | date: "%Y年%m月%d日" }} {{ post.title }}</a>
