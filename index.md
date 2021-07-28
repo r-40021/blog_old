@@ -13,7 +13,7 @@ title: やまだ Blog
 <ul>
   {% for post in site.posts %}
     <p>
-      <a href="{{ site.baseurl }}/{{ post.url }}">{{ post.date | date: "%Y年%m月%d日" }} {{ post.title }}</a>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: "%Y年%m月%d日" }} {{ post.title }}</a>
     </p>
   {% endfor %}
 </ul>
