@@ -16,3 +16,18 @@
     background-color: rgba(0,0,0,0.2);
     border-color: rgba(0,0,0,0.3);
 }
+
+.page-header{
+  color: inherit;
+}
+
+header.page-header:before, header.page-header:after {
+    content: "";
+    display: block;
+    height: 8px;
+    background: linear-gradient(120deg, #155799, #159957);
+}
+header.page-header:before {
+    position: relative;
+    bottom: 1em;
+}
