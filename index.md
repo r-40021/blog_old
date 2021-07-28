@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Hello
 ---
 # 投稿一覧
 
