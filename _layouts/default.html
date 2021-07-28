@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: "ja" }}">
   <head>
     <meta charset="UTF-8">
 
@@ -24,7 +24,9 @@
       {{ content }}
 
       <footer class="site-footer">
-        <p><a href="{{ site.baseurl }}" class="btn">TOPに戻る</a></p>
+        {% if post.backBtn %}
+          <p><a href="{{ site.baseurl }}" class="btn dark">TOPに戻る</a></p>
+        {% endif %}
         <p>&copy;2021 Kenichi Yamada</p>
       </footer>
     </main>
