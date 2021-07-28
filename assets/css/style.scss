@@ -20,6 +20,7 @@ h1.project-name{
   border-bottom: dashed 1px #dedede;
 }
 
+
 .btn.dark{
   margin-bottom: 0;
   color: rgba(0,0,0,0.7);
@@ -37,4 +38,9 @@ h1.project-name{
 .page-header{
   color: inherit;
   background: none;
+}
+
+@media screen and (max-width: 42em)
+.project-name {
+    font-size: 2.5rem;
 }
