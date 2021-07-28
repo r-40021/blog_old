@@ -7,3 +7,5 @@ theme: jekyll-theme-cayman
 baseurl: "/blog"
 url: "https://r-40021.github.io/"
 ogp: "https://r-40021.github.io/blog/assets/img/ogp.png"
+paginate: 5
+paginate_path: "blog/page:num"
