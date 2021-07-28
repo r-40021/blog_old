@@ -1,5 +1,6 @@
 ---
 layout: default
+title: ようこそ！
 ---
 # 投稿一覧
 
