@@ -1,6 +1,7 @@
 title: やまだ Blog
 description: やまだのブログ。ぼちぼち投稿していきます。
 show_downloads: false
+github.is_project_page: false
 theme: jekyll-theme-cayman
 baseurl: "/blog"
 url: "https://r-40021.github.io/"
