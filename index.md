@@ -7,7 +7,7 @@ title: ようこそ！
 <ul>
   {% for post in site.posts %}
     <p>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}">{{post.date}} {{ post.title }}</a>
     </p>
   {% endfor %}
 </ul>
