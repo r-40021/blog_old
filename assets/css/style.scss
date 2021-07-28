@@ -24,11 +24,14 @@
 
 header.page-header:before, header.page-header:after {
     content: "";
+    position: relative;
     display: block;
     height: 8px;
     background: linear-gradient(120deg, #155799, #159957);
 }
 header.page-header:before {
-    position: relative;
+    bottom: 1.5em;
+}
+header.page-header:before {
     bottom: 1em;
 }
