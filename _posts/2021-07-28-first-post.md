@@ -3,7 +3,7 @@ layout: default
 title: "こんにちは！！"
 description: はじめまして。やまだです。
 date: 2021-07-28
-backBtn: false
+backBtn: true
 ---
 
 # ブログ始めました！
