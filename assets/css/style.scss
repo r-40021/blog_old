@@ -1,4 +1,7 @@
-@import "{{ site.theme }}";
+---
+---
+
+@import  " {{site.theme}} " ;
 
 .btn.dark{
   margin-bottom: 0;
