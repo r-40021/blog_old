@@ -21,6 +21,13 @@
     <link rel="shortcut icon" href="/favicon/favicon.ico">
     <meta name="msapplication-TileColor" content="#ffc40d">
     <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+    
+    <!-- OGP -->
+    {% if page.image %}
+      <meta property="og:image" content="{{ page.image }}">
+    {% else %}
+      <meta property="og:image" content="{{ page.ogp }}">
+    {% endif %}
    
   </head>
   <body>
