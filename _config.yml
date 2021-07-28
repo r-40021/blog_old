@@ -6,4 +6,4 @@ github.is_project_page: false
 theme: jekyll-theme-cayman
 baseurl: "/blog"
 url: "https://r-40021.github.io/"
-ogp: "./assets/img/ogp.png"
+ogp: "https://r-40021.github.io/blog/assets/img/ogp.png"
