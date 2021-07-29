@@ -8,7 +8,7 @@ title: やまだ Blog
 
 詳しくは<a href="{{ site.baseurl }}{{ site.posts[0].url }}">こちら</a>をご覧ください。
 
-# 投稿一覧
+# 記事一覧
 
 <div>
   {% for post in site.posts %}
