@@ -45,6 +45,10 @@ figure {
 figcaption {
     font-size: 16px;
 }
+.main-content p, .main-content li {
+    text-align: justify;
+    line-height: 1.7;
+}
 
 
 @media screen and (min-width: 42em) and (max-width: 64em){
