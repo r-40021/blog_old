@@ -44,10 +44,11 @@
     </header>
 
     <main id="content" class="main-content" role="main">
-      <!--画像-->
+      
       {% if page.image %}
+      <!--画像-->
         <figure>
-          <img src="{{ page.image}}" width="100%"　loading="lazy">
+          <img src="{{ page.image}}" width="100%"　loading="eager">
           {% if page.copylight %}
             <figcaption>{{ page.copylight }}</figcaption>
           {% endif %}
