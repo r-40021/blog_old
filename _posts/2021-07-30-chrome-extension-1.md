@@ -40,8 +40,10 @@ Chrome 拡張機能開発ではこれら３つの言語が必須になります�
 <a href="https://www.fenet.jp/dotnet/column/environment/5400/" target="_blank" rel="noopener noreferrer">Visual Studio Codeを日本語表示にする手順！変更方法も解説
  (.NET Column)</a>
  
+ 
  これで環境構築は終了です！あっという間でしたね！
  誰でも気軽に開発を始められるところが、Chrome 拡張機能開発の良い点の一つだと思います。
+ 
  
  # 公開するなら...
  開発したChrome 拡張機能をウェブストアで公開するには、上のものに加えて以下のものが必要になります。
