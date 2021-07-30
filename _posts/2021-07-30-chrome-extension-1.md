@@ -7,6 +7,8 @@ backBtn: true
 image: https://r-40021.github.io/blog/assets/img/2021-07-30-develop.jpg
 copylight: Photo by <a href="https://unsplash.com/@pankajpatel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Pankaj Patel</a> on <a href="https://unsplash.com/s/photos/javascript?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a>
 ---
+
+
 今回からは、連載企画ということで Chrome の拡張機能を開発していきます。何回分に渡るかはわかりませんが、1回分のボリュームを抑えていくので、物足りなさを感じてしまう方もいらっしゃるかもしれませんが、お付き合いよろしくお願いします。
 
 さて、今回は連載第1回目、ということで環境構築を行っていきます。といっても、普段からプログラミングをされている方は、やることがほぼないです！プログラミングをされていない方も、難易度はそこまで高くありませんので、身構えずに取り組んでみてください。
@@ -41,17 +43,20 @@ Chrome 拡張機能開発ではこれら３つの言語が必須になります�
  (.NET Column)</a>
  
  
- これで環境構築は終了です！あっという間でしたね！
- 誰でも気軽に開発を始められるところが、Chrome 拡張機能開発の良い点の一つだと思います。
+ 
+これで環境構築は終了です！あっという間でしたね！
+誰でも気軽に開発を始められるところが、Chrome 拡張機能開発の良い点の一つだと思います。
  
  
  # 公開するなら...
+ 
  開発したChrome 拡張機能をウェブストアで公開するには、上のものに加えて以下のものが必要になります。
  - Google アカウント (できれば開発用のものを作ったほうが良い)
  - 5ドル (ウェブストアにアカウントを登録する際に、**１度だけ**登録料を支払う必要がある)
  - クレジットカード or デビットカード (どうしても用意できない場合は、本人確認を済ませたLINEプリペイドカードでも可)
  
  # 開発の流れ
+ 
  1. 必要なファイルを用意する
  2. コードを書く
  3. テストする
