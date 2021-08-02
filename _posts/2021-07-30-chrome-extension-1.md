@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Chrome 拡張機能を作って公開しよう①　〜環境構築〜
-description: 環境構築するほどのことではないが。
+description: 環境構築するほどのことでもないが。
 date: 2021-07-30
 backBtn: true
 image: https://r-40021.github.io/blog/assets/img/2021-07-30-develop.jpg
