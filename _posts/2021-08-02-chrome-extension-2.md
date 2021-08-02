@@ -7,7 +7,7 @@ backBtn: true
 image: https://r-40021.github.io/blog/assets/img/2021-08-02-html.jpg
 copylight: Photo by <a href="https://unsplash.com/@jacksonsophat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Jackson So</a> on <a href="https://unsplash.com/s/photos/html%2Fcss?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a>
 ---
-今回は拡張機能を作るシリーズ第2弾！拡張機能のポップアップを作成していきます！
+拡張機能を作るシリーズ第2弾！拡張機能のポップアップを作成していきます！
 
 # ポップアップとは
 拡張機能のアイコンをクリックした時に出てくるもののことです。ここから拡張機能の設定や操作を行うことができます。拡張機能を使ったことがあれば、一度は目にしたことがあるでしょう。
