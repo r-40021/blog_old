@@ -32,7 +32,7 @@ copylight: Photo by <a href="https://unsplash.com/@jacksonsophat?utm_source=unsp
 # 設定ファイルを作る
 ブラウザに、「これはこのような拡張機能ですよ」と教えてあげるための、設定ファイルを作っていきます。
 
-拡張機能開発用のフォルダを作って、`manifest.json` を作成してください。その後、下のコードをコピー&ペーストしてください。
+拡張機能開発用のフォルダを作って、`manifest.json` を作成してください。その後、下のコードを記述してください。
 
 ```json
 {
@@ -62,7 +62,7 @@ copylight: Photo by <a href="https://unsplash.com/@jacksonsophat?utm_source=unsp
 | `version` | 拡張機能のバージョン。　1.0→1.0.1→1.0.2→...→1.1→...→2.0 のように新しくなっていく。アップデートのたびにバージョン番号を新しくしていく。 |
 | `manifest_version` | この設定ファイル(`manifest.json`)の仕様のバージョン。ここでは最新の `3` を指定。 |
 | `icons` | 拡張機能のアイコン。`16x16`、`48x48`、`128x128`の3種類の大きさを用意しなくてはならない。アイコンの画像は後ほど配布します。 |
-| `action` | ポップアップに関する設定。<br>`default_title`で、拡張機能のアイコンにカーソルをホバーした時に表示されるテキストを指定。<br>`default_icon`で、ブラウザのURLバーの右側に表示される、拡張機能のアイコンを指定。ここでは、先程の`icons`で指定した`48x48`の画像を流用。<br>`default_popup`で、ポップアップとして表示させるHTMLファイルを指定。 |
+| `action` | ポップアップに関する設定。<br><br>`default_title`で、拡張機能のアイコンにカーソルをホバーした時に表示されるテキストを指定。<br><br>`default_icon`で、ブラウザのURLバーの右側に表示される、拡張機能のアイコンを指定。ここでは、先程の`icons`で指定した`48x48`の画像を流用。<br><br>`default_popup`で、ポップアップとして表示させるHTMLファイルを指定。 |
 
 # アイコン
 アイコンは下のリンクからダウンロードできます。
@@ -82,7 +82,7 @@ copylight: Photo by <a href="https://unsplash.com/@jacksonsophat?utm_source=unsp
 # HTML ファイルの作成
 それでは、HTML ファイルを記述してポップアップを作っていきます。
 
-開発用フォルダの一番上の階層に、`popup.html` を作成し、以下のコードをコピー&ペーストしてください。
+開発用フォルダの一番上の階層に、`popup.html` を作成し、以下のコードを記述してください。
 
 ```HTML
 <!DOCTYPE html>
@@ -98,7 +98,7 @@ copylight: Photo by <a href="https://unsplash.com/@jacksonsophat?utm_source=unsp
 </html>
 ```
 
-同様に、`popup.css`も作成し、以下のコードをコピペしてください。
+同様に、`popup.css`も作成し、以下のコードを記述してください。
 
 ```CSS
 body{
@@ -110,7 +110,7 @@ body{
 }
 ```
 
-最後に、`popup.js`を作成し、以下のコードをコピペしてください。
+最後に、`popup.js`を作成し、以下のコードを記述してください。
 
 ```JavaScript
 setTimeout(() => {
