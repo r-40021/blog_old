@@ -69,9 +69,9 @@ copylight: Photo by <a href="https://unsplash.com/@jacksonsophat?utm_source=unsp
 
 `.zip`形式ですので、解凍して拡張機能の開発用フォルダの一番上の階層に、3つの画像を配置してください。
 
-今回は、「ICOOON MONO」さんからお借りしました。この場をお借りして御礼申し上げます。
+今回は、「ICOOON MONO」様からお借りしました。この場をお借りして御礼申し上げます。
 
-[ダウンロード](https://github.com/r-40021/blog/raw/main/assets/2021-08-02-icon.zip)
+[今回用いるアイコンのダウンロード](https://github.com/r-40021/blog/raw/main/assets/2021-08-02-icon.zip)
 
 <a href="https://icooon-mono.com/15757/" target="_blank" rel="noopener noreferrer">本家様</a>
 
