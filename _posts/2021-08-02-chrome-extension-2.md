@@ -164,5 +164,5 @@ setTimeout(() => {
 
 <br><br>
 【連載一覧】
-- 第１回　[環境構築](https://r-40021.github.io/blog/2021/07/30/chrome-extension-1.html)
+- 第1回　[環境構築](https://r-40021.github.io/blog/2021/07/30/chrome-extension-1.html)
 - 第2回　[ポップアップ作成](https://r-40021.github.io/blog/2021/08/02/chrome-extension-2.html) (←今ココ)
