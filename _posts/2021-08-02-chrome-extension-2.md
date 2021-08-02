@@ -4,6 +4,8 @@ title: "Chrome 拡張機能を作って公開しよう②　〜ポップアッ�
 description: 1回15分でサクッと開発。今回はポップアップの作成。
 date: 2021-08-02
 backBtn: true
+image: https://r-40021.github.io/blog/assets/img/2021-08-02-html.jpg
+copylight: Photo by <a href="https://unsplash.com/@jacksonsophat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Jackson So</a> on <a href="https://unsplash.com/s/photos/html%2Fcss?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a>
 ---
 今回は拡張機能を作るシリーズ第2弾！拡張機能のポップアップを作成していきます！
 
@@ -65,7 +67,11 @@ backBtn: true
 
 `.zip`形式ですので、解凍して拡張機能の開発用フォルダの一番上の階層に、3つの画像を配置してください。
 
+今回は、「ICOOON MONO」さんからお借りしました。この場をお借りして御礼申し上げます。
+
 [ダウンロード](https://github.com/r-40021/blog/raw/main/assets/2021-08-02-icon.zip)
+
+<a href="https://icooon-mono.com/15757/" target="_blank" rel="noopener noreferrer">本家様</a>
 
 現在のフォルダの中身はこのようになっています。
 
@@ -140,7 +146,7 @@ setTimeout(() => {
 
 このようなものが表示された後、「Hello, world! (from js)」というアラートが表示されたら完璧です！
 
-![ポップアップ](https://user-images.githubusercontent.com/75155258/127798829-e2a3df94-d9d4-4e31-8d2f-f532c3e1fa99.png)
+![ポップアップ](https://user-images.githubusercontent.com/75155258/127800066-956b1e03-1684-4c93-8aa3-8360e03fd955.png)
 
 なお、拡張機能の一覧のピンのマークをクリックすると、URLバーの右側に固定されるので、今後テストをする際に便利です。
 
@@ -155,3 +161,8 @@ setTimeout(() => {
 いかがでしたか？
 
 次回は、このポップアップを更に充実させていきます！お楽しみに！
+
+<br><br>
+【連載一覧】
+- 第１回　[環境構築](https://r-40021.github.io/blog/2021/07/30/chrome-extension-1.html)
+- 第2回　[ポップアップ作成](https://r-40021.github.io/blog/2021/08/02/chrome-extension-2.html) (←今ココ)
