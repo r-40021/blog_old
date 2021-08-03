@@ -3,6 +3,8 @@ layout: default
 title: Chrome 拡張機能を作って公開しよう①　〜環境構築〜
 description: 環境構築するほどのことでもないが。
 date: 2021-07-30
+series: chrome_copy
+series_title: 第1回　環境構築
 backBtn: true
 image: https://r-40021.github.io/blog/assets/img/2021-07-30-develop.jpg
 copylight: Photo by <a href="https://unsplash.com/@pankajpatel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Pankaj Patel</a> on <a href="https://unsplash.com/s/photos/javascript?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a>
