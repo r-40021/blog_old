@@ -3,6 +3,8 @@ layout: default
 title: "Chrome 拡張機能を作って公開しよう②　〜ポップアップの作成〜"
 description: 1回15分でサクッと開発。今回はポップアップの作成。
 date: 2021-08-02
+series: chrome_copy
+series_title: ポップアップ作成
 backBtn: true
 image: https://r-40021.github.io/blog/assets/img/2021-08-02-html.jpg
 copylight: Photo by <a href="https://unsplash.com/@jacksonsophat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Jackson So</a> on <a href="https://unsplash.com/s/photos/html%2Fcss?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a>
@@ -163,8 +165,3 @@ setTimeout(() => {
 いかがでしたか？
 
 次回は、このポップアップを更に充実させていきます！お楽しみに！
-
-<br><br>
-【連載一覧】
-- 第1回　[環境構築](https://r-40021.github.io/blog/2021/07/30/chrome-extension-1.html)
-- 第2回　[ポップアップ作成](https://r-40021.github.io/blog/2021/08/02/chrome-extension-2.html) (←今ココ)
