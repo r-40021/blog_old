@@ -4,7 +4,7 @@ title: Chrome 拡張機能を作って公開しよう①　〜環境構築〜
 description: 環境構築するほどのことでもないが。
 date: 2021-07-30
 series: chrome_copy
-series_title: 第1回　環境構築
+series_title: 環境構築
 backBtn: true
 image: https://r-40021.github.io/blog/assets/img/2021-07-30-develop.jpg
 copylight: Photo by <a href="https://unsplash.com/@pankajpatel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Pankaj Patel</a> on <a href="https://unsplash.com/s/photos/javascript?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a>
@@ -69,8 +69,3 @@ Chrome 拡張機能開発ではこれら３つの言語が必須になります�
 
 実は...何を作っていくかは、**未定**です！
 次回をお楽しみに。
-
-<br><br>
-【連載一覧】
-- 第1回　[環境構築](https://r-40021.github.io/blog/2021/07/30/chrome-extension-1.html) (←今ココ)
-- 第2回　[ポップアップ作成](https://r-40021.github.io/blog/2021/08/02/chrome-extension-2.html)
