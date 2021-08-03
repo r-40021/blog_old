@@ -6,7 +6,7 @@ title: やまだ Blog
 こんにちは、「やまだ」です。
 普段はWebアプリの開発を行っています。
 
-詳しくは<a href="{{ site.baseurl }}{{ site.posts[0].url }}">こちら</a>をご覧ください。
+詳しくは<a href="https://r-40021.github.io/blog/2021/07/28/introduce.html">こちら</a>をご覧ください。
 
 # 記事一覧
 
