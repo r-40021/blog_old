@@ -55,7 +55,18 @@
         </figure>
       {% endif %}
       {{ content }}
-       
+      
+      {% if page.series %}
+      <br><br><br>
+      【連載一覧】
+      {% for post in site.posts reversed %}
+        {% if post.series == page.series %}
+          <p>{{ post.series_title }}{% if post.url == page.url %} (←今ココ){% endif %}</p>
+        {% endif %}
+      
+      {% endfor %}
+      
+       {% endif %}
       {% if page.backBtn %}
       <br><br>
       <h3>書いた人：やまだ</h3>
