@@ -59,14 +59,14 @@
       {% if page.series %}
       <br><br><br>
       <p>【連載一覧】</p>
-      <ul>
+      <ol>
       {% for post in site.posts reversed %}
         {% if post.series == page.series %}
         <li><a href="{{ site.baseurl }}{{ page.url }}">{{ post.series_title }}</a>{% if post.url == page.url %} (←今ココ){% endif %}</li>
         {% endif %}
       
       {% endfor %}
-      </ul>
+      </ol>
        {% endif %}
       {% if page.backBtn %}
       <br><br>
