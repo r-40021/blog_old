@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Chrome 拡張機能を作って公開しよう③　〜形にする〜"
-description: 1回15分でサクッと開発。今回はポップアップの作成。
+description: 1回15分でサクッと開発。いよいよ形にしていきます！
 date: 2021-08-03
 series: chrome_copy
 series_title: 仕様に沿って開発
@@ -217,7 +217,7 @@ chrome.tabs.query({ 'active': true, 'lastFocusedWindow': true }, tabs => {
     url.value = tabs[0].url;
 });
 ```
-`chrome.tabs.query` について詳しく説明していきます。
+では、`chrome.tabs.query` について詳しく説明していきます。
 
 `chrome.tabs.query`は、条件に合うタブの情報を、NodeList 形式で返してくれるメソッドです。NodeList がよくわからない人は、普通の JavaScript の配列やオブジェクトと同じようなものと覚えておいてください。
 
