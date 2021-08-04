@@ -7,7 +7,7 @@ series: chrome_copy
 series_title: 仕様に沿って開発
 backBtn: true
 image: https://r-40021.github.io/blog/assets/img/2021-08-03-mac.jpg
-copylight: Photo by <a href="https://unsplash.com/@jantined?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">>Jantine Doornbos</a> on <a href="https://unsplash.com/s/photos/develop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">>Unsplash</a>
+copylight: Photo by <a href="https://unsplash.com/@jantined?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Jantine Doornbos</a> on <a href="https://unsplash.com/s/photos/develop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a>
 ---
 
 こんにちは。1回15分で拡張機能を作るシリーズ、第3弾です。
