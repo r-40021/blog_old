@@ -395,7 +395,7 @@ function windowOpen(url) {
 | Twitter | {% raw %}`https://twitter.com/share?text={{ ツイート文 }}&url={{ URL }}&hashtags={{ ハッシュタグ (カンマ区切りで複数指定可能) }}`{% endraw %} |
 | LINE | {% raw %}`https://social-plugins.line.me/lineit/share?url={{ URL }}`{% endraw %} |
 
-`{{ URL }}`の部分に共有したい URL を入れると、上記のような SNS でシェアすることができます。
+{% raw %}`{{ URL }}`{% endraw %}の部分に共有したい URL を入れると、上記のような SNS でシェアすることができます。
 
 また、Twitter の場合は、ツイート文やハッシュタグも指定できます。要領は URL と同じで、指定された部分に文字を入れるだけです。
 
