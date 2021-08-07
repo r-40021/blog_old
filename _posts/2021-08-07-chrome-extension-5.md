@@ -104,3 +104,5 @@ if(!/http\:\/\/|https\:\/\//.test(tabUrl)) {
 本日もお疲れさまでした！
 
 次回は Web ストアに出品する予定でしたが、予定を変更してもう一つ機能を実装していきます。
+
+また、今回扱ったコードは、[こちら](https://github.com/r-40021/copy_title-URL/tree/lesson_5)から見られます。
