@@ -371,7 +371,7 @@ document.getElementById("tweet").addEventListener("click", () => {
 
 /*LINE*/
 document.getElementById("LINE").addEventListener("click", ()=>{
-    windowOpen("https://social-plugins.line.me/lineit/share?url=" + encodeURIComponent(tabTitle));
+    windowOpen("https://social-plugins.line.me/lineit/share?url=" + encodeURIComponent(tabUrl));
 }, false);
 ```
 
@@ -702,7 +702,7 @@ chrome.tabs.query({ 'active': true, 'lastFocusedWindow': true }, tabs => {
         windowOpen("https://twitter.com/intent/tweet?text=" + encodeURIComponent(tabTitle) + "%0a&url=" + encodeURIComponent(tabUrl));
     }, false);
     document.getElementById("LINE").addEventListener("click", ()=>{
-        windowOpen("https://social-plugins.line.me/lineit/share?url=" + encodeURIComponent(tabTitle));
+        windowOpen("https://social-plugins.line.me/lineit/share?url=" + encodeURIComponent(tabUrl));
     }, false);
 
 });
@@ -754,3 +754,6 @@ function windowOpen(url) {
 さて、ここまで駆け足でやってきてしまったので、明日、明後日、の連載はお休みします。今までの復習を行ったり、少し息抜きしたりしてください。
 
 それでは、次回(8/7)をお楽しみに！
+
+# 2021/8/7 追記
+「LINE で送る」ボタンに関するコードに誤りがあったため訂正しました。
