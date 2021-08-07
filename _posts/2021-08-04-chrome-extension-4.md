@@ -391,9 +391,9 @@ function windowOpen(url) {
 
 | サービス名 | URL |
 | :---: | :--- |
-| Facebook | `https://www.facebook.com/share.php?u={{ URL }}` |
-| Twitter | `https://twitter.com/share?text={{ ツイート文 }}&url={{ URL }}&hashtags={{ ハッシュタグ (カンマ区切りで複数指定可能) }}` |
-| LINE | `https://social-plugins.line.me/lineit/share?url={{ URL }}` |
+| Facebook | {% raw %}`https://www.facebook.com/share.php?u={{ URL }}`{% endraw %} |
+| Twitter | {% raw %}`https://twitter.com/share?text={{ ツイート文 }}&url={{ URL }}&hashtags={{ ハッシュタグ (カンマ区切りで複数指定可能) }}`{% endraw %} |
+| LINE | {% raw %}`https://social-plugins.line.me/lineit/share?url={{ URL }}`{% endraw %} |
 
 `{{ URL }}`の部分に共有したい URL を入れると、上記のような SNS でシェアすることができます。
 
