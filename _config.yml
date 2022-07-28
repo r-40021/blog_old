@@ -4,7 +4,7 @@ lang: ja
 show_downloads: false
 github.is_project_page: false
 theme: jekyll-theme-cayman
-baseurl: "/blog"
+baseurl: "/blog_old"
 url: "https://r-40021.github.io/"
 ogp: "https://r-40021.github.io/blog/assets/img/ogp.png"
 paginate: 5
